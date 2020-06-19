@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Principal">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fondo_principal"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#9A615656"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtlogo_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BUSWAY"
+            android:textColor="#fff"
+            android:textSize="60dp"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bienvenido"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Su ubicacion actual es:"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/long_driver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/lat_driver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_marginBottom="15dp"/>
+
+
+        <Button
+            android:id="@+id/btnbuscar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/btn_redondo"
+            android:elevation="5dp"
+            android:text="BUSCAR"
+            android:textAllCaps="false"
+            android:textColor="#403f3f"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/btnenviar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/btn_redondo"
+            android:elevation="5dp"
+            android:text="ENVIAR"
+            android:textAllCaps="false"
+            android:textColor="#403f3f"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/ok_driver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_marginBottom="15dp"/>
+
+    </LinearLayout>
+</RelativeLayout>

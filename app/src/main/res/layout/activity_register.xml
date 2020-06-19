@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fondo_register"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#9A301E1E"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtlogo_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BUSWAY"
+            android:textColor="#fff"
+            android:textSize="60dp"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Datos Personales"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_marginBottom="15dp"/>
+
+        <EditText
+            android:id="@+id/name_driv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textColorHint="#ccc"
+            android:inputType="text"
+            android:textColor="#fff"
+            android:hint="Nombre"
+            android:background="@drawable/txt_redondo"
+            android:layout_marginBottom="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/last_driv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textColorHint="#ccc"
+            android:textColor="#fff"
+            android:hint="Apellido"
+            android:background="@drawable/txt_redondo"
+            android:layout_marginBottom="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"/>
+
+
+        <EditText
+            android:id="@+id/dni_driv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textColorHint="#ccc"
+            android:textColor="#fff"
+            android:hint="Cédula de identidad"
+            android:background="@drawable/txt_redondo"
+            android:layout_marginBottom="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Datos Empresariales"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_marginBottom="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@android:color/transparent"
+            android:layout_marginBottom="10dp">
+            <CheckBox
+                android:id="@+id/typeAz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AZBLAN S.A."
+                android:textColor="#FFFFFF"/>
+
+            <CheckBox
+                android:id="@+id/typeLi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LIBERTADORES S.A."
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/unity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textColorHint="#ccc"
+            android:textColor="#fff"
+            android:hint="Número de unidad"
+            android:background="@drawable/txt_redondo"
+            android:layout_marginBottom="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/pass_driv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textColorHint="#ccc"
+            android:hint="Contraseña"
+            android:inputType="text"
+            android:textColor="#fff"
+            android:background="@drawable/txt_redondo"
+            android:layout_marginBottom="25dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnreg2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/btn_redondo"
+            android:elevation="5dp"
+            android:text="REGISTRARSE"
+            android:textAllCaps="false"
+            android:textColor="#403f3f"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
